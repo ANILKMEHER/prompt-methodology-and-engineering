@@ -50,4 +50,3 @@ PROMPTING FRAMEWORK                       SOFTWARE ARCHITECTURE PATTERN
 
 ```
 
----
