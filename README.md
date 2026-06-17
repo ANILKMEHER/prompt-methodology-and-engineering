@@ -34,6 +34,6 @@ Explore individual architectural artifacts detailing templates, trade-offs, and 
 ### 👥 3. User Simulation & Validation Engine
 *   **[Proto-Persona AI Simulations & Concept Validation](./proto-persona-and-validation.md)**  
     *Structuring data-grounded customer archetypes, mapping validation requirements, and simulating user sandboxes for automated product smoke testing.*
-
+* **[Few-Shot Token Compression & FinOps Optimization](./modules/prompt-compression-finops/)** *Applying string minification algorithms, stop-word purging engines, and high-density schema pruning scripts to slash corporate API expenses by 30-40%.*
 ---
 *This repository is continuously updated to document deterministic prompting methodologies, optimization frameworks, and LLM orchestration playbooks.*
