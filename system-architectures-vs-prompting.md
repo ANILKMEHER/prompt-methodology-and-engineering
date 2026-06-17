@@ -1,10 +1,14 @@
 # Software System Architectures vs. Prompting Paradigms 🏗️
 
-To truly understand prompt engineering, it helps to map these frameworks directly against classic enterprise software design patterns.
+To truly understand prompt engineering, it helps to map these advanced frameworks directly against classic enterprise software design patterns.
 
 ---
 
 ## 🗺️ Conceptual Architecture Mapping
+
+
+```
+
 PROMPTING FRAMEWORK                       SOFTWARE ARCHITECTURE PATTERN
 ┌──────────────────────┐                   ┌──────────────────────────────┐
 │ Few-Shot Examples    │ ────────────────> │ Immutable Schema Validation  │
@@ -12,7 +16,14 @@ PROMPTING FRAMEWORK                       SOFTWARE ARCHITECTURE PATTERN
 │ Prompt Chaining      │ ────────────────> │ Microservices Pipeline       │
 ├──────────────────────┤                   ├──────────────────────────────┤
 │ ReAct Framework      │ ────────────────> │ Stateful Event-Driven Agent  │
+├──────────────────────┤                   ├──────────────────────────────┤
+│ Directional Stimulus │ ────────────────> │ Targeted Ingress Log Filters │
+├──────────────────────┤                   ├──────────────────────────────┤
+│ Meta-Prompting       │ ────────────────> │ Compiler / Code Generator    │
 └──────────────────────┘                   └──────────────────────────────┘
+
+```
+
 ---
 
 ## 📐 Deep-Dive Architectural Analogies
@@ -28,3 +39,15 @@ PROMPTING FRAMEWORK                       SOFTWARE ARCHITECTURE PATTERN
 ### 3. ReAct (Reason + Action) vs. Event-Driven Stateful Loops
 *   **The Analogy:** Modern automation architectures use **State Machines and Event Loops** that wait for an event, check a condition, execute a system script, and transition to the next state based on the output.
 *   **The Prompting Reality:** Advanced frameworks like **ReAct** mimic this by forcing the LLM to cycle through a structured loop: *Thought ➔ Action ➔ Observation*. The model reasons through a problem, triggers an external tool (like a database query), reads the result, and loops until it satisfies the target exit condition.
+
+### 4. Directional Stimulus vs. Ingress Content Filters
+*   **The Analogy:** Network security routing components use **Ingress Packet Filters** to isolate deep telemetry metadata while dropping payload background noise before passing traffic down the stack.
+*   **The Prompting Reality:** **Directional Stimulus** prompting embeds a targeted hint token array alongside massive raw data contexts. This triggers the attention layer of the neural network to down-sample irrelevant sections, accelerating parsing efficiency.
+
+### 5. Meta-Prompting vs. Compilers and Code-Generators
+*   **The Analogy:** Higher-level system **Compilers** read declarative application parameters and programmatically generate lower-level operational bytecode configurations natively executed by target runtimes.
+*   **The Prompting Reality:** **Meta-Prompting** elevates the model to act as the compiler itself. It consumes high-level functional business goals and programmatically outputs optimized, structural system prompts tuned for specific downstream software application layers.
+
+```
+
+---
