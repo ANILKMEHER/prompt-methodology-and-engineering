@@ -84,12 +84,3 @@ The engine (`compressor.py`) executes the pipeline in four strategic phases:
 4. **Vertical Gap Truncation:** Cleans up trailing fragments and removes redundant line breaks with targeted regular expressions.
 
 ```
-
----
-
-### 💡 Pro Tip for your Repo:
-1. Go to your GitHub UI as shown in your screenshot.
-2. Click **Go to file** or click on **`README.md`** inside that folder.
-3. Click the edit icon (pencil) or create a new file if it doesn't exist yet, paste the text above, and commit the changes!
-
-```
