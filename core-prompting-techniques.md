@@ -1,6 +1,11 @@
-# Core Prompting Techniques & Enterprise Templates 🛠️
+Here is the expanded, all-in-one **`core-prompting-techniques.md`** file. It retains your clean, code-focused style while adding three advanced, engineering-grade methodologies: **ReAct (Reason + Action)**, **Directional Stimulus**, and **Meta-Prompting**.
 
-This workbook defines the primary prompt engineering methodologies utilized to enforce deterministic behaviors, valid output data schemas, and mathematical precision within LLM execution layers.
+Select all text inside the block below, overwrite your current file entirely, and commit it to `main`:
+
+```markdown
+# Core & Advanced Prompting Techniques & Enterprise Templates 🛠️
+
+This workbook defines the prompt engineering methodologies utilized to enforce deterministic behaviors, valid output data schemas, and structural precision within LLM execution layers.
 
 ---
 
@@ -93,6 +98,94 @@ Chain-of-Thought prompting explicitly instructs the model to generate its interm
 2. Apply the migration constant formula to determine raw engineering hours.
 3. Add a standard 15% buffer for integration architecture testing.
 4. Output final calculated hours.
+
+```
+
+---
+
+## 4. ReAct (Reason + Action) Prompting
+
+ReAct prompts force the model to alternate between generating structured reasoning ("Thought") and executing external tool calls ("Action") to solve a dynamic problem over multiple iterations.
+
+> **Operational Analogy:** An infrastructure engineer troubleshooting a broken server pipeline loop. They form a hypothesis (Thought), run a query command to check a system resource state (Action), inspect the terminal feedback (Observation), and repeat until the root cause is resolved.
+
+* **Optimal Use Cases:** Autonomous platform agents, dynamic real-time inventory checks, and multi-system automated deployments.
+* **Target Persona:** Autonomous platform orchestrators, real-time data sync daemons.
+
+### 📝 Production Template
+
+```text
+[SYSTEM CONTEXT]: You are an autonomous multi-cloud deployment agent.
+[OPERATIONAL TASK]: Validate whether Subaccount_702 matches our corporate resource tag compliance policy.
+[AVAILABLE TOOLS]:
+  1. `get_subaccount_metadata(id)`: Returns regional deployment parameters.
+  2. `scan_active_resource_tags(id)`: Returns active structural tag arrays.
+
+[STRICT INTERACTION EXECUTION PROTOCOL]:
+Loop through the following structural blocks precisely until you can state your final resolution:
+Thought: [Your logical deduction]
+Action: [The exact tool name and parameter validation string]
+Observation: [The raw tool response payload returned by the system environment]
+... (Repeat as needed)
+Final Answer: [Strict compliant JSON confirmation state summary]
+
+[TARGET INGRESS]: Run verification sequence on subaccount ID "sub-9042".
+
+```
+
+---
+
+## 5. Directional Stimulus Prompting
+
+Directional Stimulus prompting uses a lightweight, separate hint or specific sub-objective marker (the "stimulus") embedded within the main prompt payload to guide the model toward specific focus areas without over-constraining its generative ability.
+
+> **Operational Analogy:** A Technical Product Manager giving a senior engineer a lengthy 50-page enterprise contract, but highlighting a single paragraph on data compliance to guide their review focus before they draft a system technical architecture summary.
+
+* **Optimal Use Cases:** Domain-specific summarizations, parsing legacy database logs for explicit errors, and filtering business requirements for architecture patterns.
+* **Target Persona:** Automated system spec parsers, intelligent alert summarizers.
+
+### 📝 Production Template
+
+```text
+[SYSTEM CONTEXT]: You are an automated technical writer.
+[OPERATIONAL TASK]: Summarize the attached legacy system architecture migration log.
+[DIRECTIONAL STIMULUS HINT]: Focus your technical summary strictly on identifying points of "network firewall lag" and "database connection delays." Ignore general user interface adjustments.
+
+[TARGET INGRESS LOGS]:
+ Init system UI modules... OK
+ Connecting to main ledger database cluster... Timeout exception encountered. Retrying in 5000ms.
+ Ingress ingress rules updated. Local network gateway firewall added 450ms packet overhead routing delays.
+ Web portal static asset rendering completed successfully.
+
+[TECHNICAL SUMMARY]:
+
+```
+
+---
+
+## 6. Meta-Prompting
+
+Meta-Prompting instructs the model to act as a system prompt engineer, generating, debugging, or optimizing its own prompt code layouts based on a set of higher-level functional business objectives.
+
+> **Operational Analogy:** A Product Lead drafting a formal, structured evaluation playbook and training manual to teach other engineers exactly how to write repeatable, audit-ready operational runbooks.
+
+* **Optimal Use Cases:** Automated prompt template generators, quality control optimization tools, and bootstrapping new AI system modules.
+* **Target Persona:** Automated AI tool development frameworks, quality assurance systems.
+
+### 📝 Production Template
+
+```text
+[SYSTEM CONTEXT]: You are a Principal AI Prompt Systems Engineer.
+[OPERATIONAL TASK]: Generate a structured, deterministic system prompt layout designed to be consumed by an LLM middleware layer.
+[TARGET OBJECTIVE]: The generated prompt layout must reliably force the target model to parse a raw text PRD and output an explicit, valid JSON array containing only technical dependencies and non-functional requirements (NFRs).
+
+[STRICT METRIC METADATA REQUIRED IN THE GENERATED PROMPT]:
+* Include a System Role.
+* Include explicit input/output interface structures.
+* Include 2 distinct Few-Shot compliance layout examples.
+* Define an explicit error fallback parameter block.
+
+[GENERATED ENTERPRISE PROMPT CODE LAYOUT]:
 
 ```
 
