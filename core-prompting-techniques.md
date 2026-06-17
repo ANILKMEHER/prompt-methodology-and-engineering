@@ -35,7 +35,7 @@ This document outlines primary prompting methodologies, providing an operational
     Incident: [Severity: Medium] Performance degradation identified on reporting endpoint.
     
     User: "I can't log in using my mobile token."
-    Incident:
+    Incident: [Severity: High] Authentication failure identified on mobile credential validation pathway.
     ```
 
 ---
