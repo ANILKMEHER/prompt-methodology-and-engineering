@@ -1,4 +1,4 @@
-# Prompt Engineering Technique Comparison Matrix 📊
+# Prompt Engineering Methodology Comparison Matrix 📊
 
 This document provides a technical comparison of standard and advanced prompting methods, highlighting their operational trade-offs and token cost weights.
 
