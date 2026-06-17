@@ -64,15 +64,3 @@ ${RETRIEVED_CONTEXT_BLOCK_2}
 * **The Prompting Reality:** Standard prompting without RAG is a static, closed environment. Introducing RAG turns your prompt configuration into a live database query interface. The prompt template operates as an open code parameter slot (`${RETRIEVED_CONTEXT_BLOCK_1}`), waiting for an external retrieval engine to safely bind relevant database rows right before execution.
 
 ```
-
----
-
-## 🛠️ Step 2: Link the RAG Document Inside Your Master README
-
-To ensure this new artifact is fully discoverable by technical reviewers, open your **`README.md`** file, click the edit pencil, and add this new link directly under the **1. Core Engineering Workbooks** section:
-
-```markdown
-*   **[Retrieval-Augmented Generation (RAG) Prompting](./rag-orchestration-and-prompting.md)**  
-    *Architecting live context injection layers, managing grounding constraints, and mapping RAG to dynamic parameters.*
-
-```
