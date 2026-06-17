@@ -28,7 +28,7 @@ Explore individual architectural artifacts detailing templates, trade-offs, and 
 ### 🏗️ 2. Architectural System Mapping
 *   **[Software Architectures vs. Prompting Paradigms](./system-architectures-vs-prompting.md)**  
     *Mapping prompt engineering frameworks directly against classic software engineering patterns like Microservices, State Machines, and Circuit Breakers.*
-    ```markdown
+
 *   **[Retrieval-Augmented Generation (RAG) Prompting](./rag-orchestration-and-prompting.md)**  
     *Architecting live context injection layers, managing grounding constraints, and mapping RAG to dynamic parameters.*
 
