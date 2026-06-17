@@ -2,7 +2,7 @@
 
 Welcome to the Prompt Methodology and Engineering repository. This space serves as a highly structured, enterprise-grade playbook mapping out non-deterministic prompt design into predictable, rule-driven, and production-ready AI orchestration.
 
-<Image src="image_agent_tag_7414345689081045155" alt="A step-by-step diagram showing Role, Context, Task, Constraints, and Output blocks in a structured framework" caption="Systemic Prompt Engineering Workflows" />
+![Systemic Prompt Engineering Workflows](https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80)
 
 ---
 
