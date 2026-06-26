@@ -14,6 +14,7 @@ Zero-Shot prompting requests the model to execute a target task relying solely o
 
 ### 📝 Production Template
 
+```text
 [SYSTEM CONTEXT]: You are an isolated enterprise logging daemon.
 [OPERATIONAL TASK]: Analyze the incoming system trace log and classify its operational state.
 [STRICT CONSTRAINTS]: Output a single JSON object containing only the keys "status" and "code".
@@ -26,6 +27,8 @@ Zero-Shot prompting requests the model to execute a target task relying solely o
 }
 
 ---
+
+```
 
 ## 2. Few-Shot Prompting
 
