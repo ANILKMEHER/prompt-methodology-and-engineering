@@ -1,13 +1,7 @@
-Here is the expanded, all-in-one **`core-prompting-techniques.md`** file. It retains your clean, code-focused style while adding three advanced, engineering-grade methodologies: **ReAct (Reason + Action)**, **Directional Stimulus**, and **Meta-Prompting**.
-
-Select all text inside the block below, overwrite your current file entirely, and commit it to `main`:
-
-```markdown
 # Core & Advanced Prompting Techniques & Enterprise Templates 🛠️
-
+---
 This workbook defines the prompt engineering methodologies utilized to enforce deterministic behaviors, valid output data schemas, and structural precision within LLM execution layers.
 
----
 
 ## 1. Zero-Shot Prompting
 
@@ -19,7 +13,7 @@ Zero-Shot prompting requests the model to execute a target task relying solely o
 *   **Target Persona:** Automated system middleware, lightweight cloud-native functions.
 
 ### 📝 Production Template
-```text
+
 [SYSTEM CONTEXT]: You are an isolated enterprise logging daemon.
 [OPERATIONAL TASK]: Analyze the incoming system trace log and classify its operational state.
 [STRICT CONSTRAINTS]: Output a single JSON object containing only the keys "status" and "code".
@@ -30,8 +24,6 @@ Zero-Shot prompting requests the model to execute a target task relying solely o
   "status": "CRITICAL",
   "code": 503
 }
-
-```
 
 ---
 
